@@ -37,7 +37,7 @@ XML PHP Extension
 ## Application Installation
 
 Clone the repository
-git clone
+git clone https://github.com/alameenpa/school-managment-system.git
 
 Switch to the repo folder
 cd schoolmgmt
