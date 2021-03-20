@@ -37,32 +37,41 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 ## Application Installation
 
 Clone the repository
-git clone https://github.com/alameenpa/school-managment-system.git
+
+-   git clone https://github.com/alameenpa/school-managment-system.git
 
 Switch to the repo folder
-cd schoolmgmt
+
+-   cd schoolmgmt
 
 Install all the dependencies using composer (make sure composer already installed, please check "www.getcomposer.org", if not)
-composer install
+
+-   composer install
 
 Install node related dependencies using npm (if font-awesome icons are not visible means)
-npm install
+
+-   npm install
 
 Copy the example env file and make the required configuration changes in the .env file
-cp .env.example .env
+
+-   cp .env.example .env
 
 Set the database connection in .env
 
 Generate a new application key
-php artisan key:generate
+
+-   php artisan key:generate
 
 Run the database migrations
-php artisan migrate
+
+-   php artisan migrate
 
 Run Seeders (for static data to the following tables: teachers, terms, subjects)
-php artisan db:seed
+
+-   php artisan db:seed
 
 Start the local development server
-php artisan serve
+
+-   php artisan serve
 
 You can now access the server at http://localhost:8000
